@@ -24,16 +24,18 @@ The goal of this repository is to track my learning, improve my skills in Active
 
 ## Architecture
 Network Topology
+
 TODO
 
 ## Attack Scenarios (MITRE ATT&CK)
 Directory: scenarios/
 
 **Included Scenarios**
-TODO
+- TODO
 
 ## Detection & Monitoring
 Directory: detection/
+
 TODO
 
 ## Provisioning & Automation
