@@ -20,7 +20,7 @@ The goal of this repository is to track my learning, improve my skills in Active
 | **Ubuntu-Desktop** | Linux workstation                   | Ubuntu 22.04 Desktop       |
 | **Ubuntu-Server**  | Internal service / intranet hosting | Ubuntu Server 22.04        |
 | **Security-Onion** | IDS / SIEM                          | Security Onion             |
-| **Attacker**       | External attacker machine           | Linux (Arch)               |
+| **Attacker**       | External attacker machine           | Arch Linux                 |
 
 ## Architecture
 Network Topology
