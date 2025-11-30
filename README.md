@@ -2,7 +2,7 @@
 
 ## Project Overview
 This repository documents my personal project of building a small, realistic Active Directory environment for security research, attack simulations, and defensive analysis.
-It is not a ready-made lab or a complete walkthrough — instead, it contains:
+It is not a ready-made lab or a complete walkthrough instead, it contains:
 
 - notes from the process of creating the infrastructure,
 - configurations I used,
