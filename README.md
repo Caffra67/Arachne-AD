@@ -22,10 +22,11 @@ The goal of this repository is to track my learning, improve my skills in Active
 | **Security-Onion** | IDS / SIEM                          | Security Onion             |
 | **Attacker**       | External attacker machine           | Arch Linux                 |
 
-## Architecture
-Network Topology
-
-TODO
+## Tools
+Tools used in project:
+- Wazuh
+- Kubernetes 
+- MailHog
 
 ## Attack Scenarios (MITRE ATT&CK)
 Directory: **scenarios/**
@@ -47,4 +48,10 @@ Here I provide tools/commands to facilitate
 
 ## Documentation
 Directory: **docs/**
+
+
+## Architecture
+Network Topology
+
+TODO
 
