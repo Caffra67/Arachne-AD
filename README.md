@@ -28,18 +28,21 @@ Network Topology
 TODO
 
 ## Attack Scenarios (MITRE ATT&CK)
-Directory: scenarios/
+Directory: **scenarios/**
+Set of scenarios I tried/done successful
 
 **Included Scenarios**
 - TODO
 
 ## Detection & Monitoring
-Directory: detection/
+Directory: **detection/**
 
 TODO
 
 ## Provisioning & Automation
-Directory: provisioning/
+Directory: **provisioning/**
+Here I provide tools/commands to facilitate
 
 ## Documentation
-Directory: docs/
+Directory: **docs/**
+
