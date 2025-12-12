@@ -1,4 +1,4 @@
-#### Info about infra
+## Info about infra
 
 |VM Name                     	| Operating System      	| IP Address 	| User          	|
 |--------------------------:	|-----------------------	|------------	|---------------	|
