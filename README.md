@@ -15,7 +15,7 @@ The goal of this repository is to track my learning, improve my skills in Active
 
 | VM Name                   | OS             | IP         | Role                     |
 | ------------------------- | -------------- | ---------- | ------------------------ |
-| Arachne-DC                | Windows Server | 10.0.0.5   | AD / DNS                 |
+| Arachne-DC                | Windows Server | 10.0.0.5   | DC                       |
 | Arachne-vpn               | Ubuntu Server  | 10.0.0.254 | WireGuard VPN Gateway    |
 | Arachne-bastion           | Ubuntu Server  | 10.0.0.10  | SSH + Ansible            |
 | Arachne-docker            | Ubuntu Server  | 10.0.0.20  | Docker                   |
@@ -27,6 +27,7 @@ The goal of this repository is to track my learning, improve my skills in Active
 
 ## Tools
 Tools used in project:
+- Windows Server 2025 (AD DS, DHCP, DNS, IIS)
 - WireGuard
 - Wazuh
 - Onion linux
