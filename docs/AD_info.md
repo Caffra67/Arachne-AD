@@ -1,6 +1,6 @@
 ## Info about infra
 
-| VM Name                   | OS             | IP         | Rola          |
+| VM Name                   | OS             | IP         | Role          |
 | ------------------------- | -------------- | ---------- | ------------- |
 | Arachne-DC                | Windows Server | 10.0.0.5   | AD / DNS      |
 | Arachne-bastion           | Ubuntu Server  | 10.0.0.10  | SSH + Ansible |
