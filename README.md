@@ -12,15 +12,17 @@ It is not a ready-made lab or a complete walkthrough instead, it contains:
 The goal of this repository is to track my learning, improve my skills in Active Directory security, and share high-level insights with others who want to study similar topics.
 
 ## Machines Overview
-| Name               | Role                                | Operating System           |
-| ------------------ | ----------------------------------- | -------------------------- |
-| **DC**             | Domain Controller                   | Windows Server 2025        |
-| **Win11-User**     | Domain user workstation             | Windows 11 Enterprise      |
-| **Win11-User-Vul** | Testing / vulnerable workstation    | Windows 11 Enterprise      |
-| **Ubuntu-Desktop** | Linux workstation                   | Ubuntu 22.04 Desktop       |
-| **Ubuntu-Server**  | Internal service / intranet hosting | Ubuntu Server 22.04        |
-| **Security-Onion** | IDS / SIEM                          | Security Onion             |
-| **Attacker**       | External attacker machine           | Arch Linux                 |
+
+| VM Name                   | OS             | IP         | Role          |
+| ------------------------- | -------------- | ---------- | ------------- |
+| Arachne-DC                | Windows Server | 10.0.0.5   | AD / DNS      |
+| Arachne-bastion           | Ubuntu Server  | 10.0.0.10  | SSH + Ansible |
+| Arachne-docker            | Ubuntu Server  | 10.0.0.20  | Docker        |
+| Arachne-wazuh             | Ubuntu Server  | 10.0.0.30  | SIEM          |
+| Arachne-Onion-work        | Security Onion | 10.0.0.103 | NIDS          |
+| Arachne-win11-client      | Win11          | 10.0.0.100 | User          |
+| Arachne-win11-compromised | Win11          | 10.0.0.102 | Victim        |
+| Arachne-Ubuntu-client     | Ubuntu Desktop | 10.0.0.101 | User          |
 
 ## Tools
 Tools used in project:
