@@ -15,6 +15,8 @@ add home directory on login
 sudo pam-auth-update
 ```
 
+---
+
 nsswitch.conf ipasswd: and group: winbind to work 
 
 ---
