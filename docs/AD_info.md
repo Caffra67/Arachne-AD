@@ -7,5 +7,5 @@
 | Arachne-win11-compromised 	| Windows 11 Enterprise 	| 10.0.0.102 	| Black         	| @wdowa123    	|
 | Arachne-Ubuntu-client     	| Ubuntu 22.04 Desktop  	| 10.0.0.101 	| Eresus        	| @pajak123    	|
 | Arachne-Ubuntu-srv        	| Ubuntu 22.04 Desktop  	| 10.0.0.8   	| Arachne-admin 	| @password123 	|
-| Arachne-Corp-srv          	| Ubuntu Server 22.04   	|            	| arachne-itsec  	| @password123!	|
-| Arachne-Onion-srv         	| Security Onion        	| 10.0.0.103  |               	|              	|
+| Arachne-Corp-srv          	| Ubuntu Server 22.04   	|            	|                	|             	|
+| Arachne-Onion-srv         	| Security Onion        	| 10.0.0.103  | arachne-itsec   | @password123! |
