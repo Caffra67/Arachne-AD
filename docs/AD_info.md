@@ -1,11 +1,12 @@
 ## Info about infra
 
-|                   VM Name 	| Operating System      	| IP Address 	| User          	| Password     	|
-|--------------------------:	|-----------------------	|------------	|---------------	|--------------	|
-| Arachne-DC                	| Windows Server 2025   	| 10.0.0.5   	| Administrator 	| @password123 	|
-| Arachne-win11-client      	| Windows 11 Enterprise 	| 10.0.0.100 	| Ctenus        	| @pajak123    	|
-| Arachne-win11-compromised 	| Windows 11 Enterprise 	| 10.0.0.102 	| Black         	| @wdowa123    	|
-| Arachne-Ubuntu-client     	| Ubuntu 22.04 Desktop  	| 10.0.0.101 	| Eresus        	| @pajak123    	|
-| Arachne-Ubuntu-srv        	| Ubuntu 22.04 Desktop  	| 10.0.0.8   	| Arachne-admin 	| @password123 	|
-| Arachne-Corp-srv          	| Ubuntu Server 22.04   	|            	|                	|             	|
-| Arachne-Onion-srv         	| Security Onion        	| 10.0.0.103  | arachne-itsec   | @password123! |
+| VM Name                   | OS             | IP         | Rola          |
+| ------------------------- | -------------- | ---------- | ------------- |
+| Arachne-DC                | Windows Server | 10.0.0.5   | AD / DNS      |
+| Arachne-bastion           | Ubuntu Server  | 10.0.0.10  | SSH + Ansible |
+| Arachne-docker            | Ubuntu Server  | 10.0.0.20  | Docker        |
+| Arachne-wazuh             | Ubuntu Server  | 10.0.0.30  | SIEM          |
+| Arachne-Onion-work        | Security Onion | 10.0.0.103 | NIDS          |
+| Arachne-win11-client      | Win11          | 10.0.0.100 | User          |
+| Arachne-win11-compromised | Win11          | 10.0.0.102 | Victim        |
+| Arachne-Ubuntu-client     | Ubuntu Desktop | 10.0.0.101 | User          |
