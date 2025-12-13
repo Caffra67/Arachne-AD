@@ -17,6 +17,8 @@ sudo pam-auth-update
 
 nsswitch.conf ipasswd: and group: winbind to work 
 
+---
+
 ```
 sudo mv /etc/samba/smb.conf /etc/samba/smb.conf.org
 ```
@@ -44,5 +46,9 @@ resolv.conf add:
 nameserver 10.0.0.X
 ```
 
+Connect to AD
+```
+sudo net ads join -U Administrator
+```
 Source:
 1. Michael Waterman, Domain Join Ubuntu 22.04 to Active Directory, https://michaelwaterman.nl/2022/10/02/domain-join-ubuntu-22-04-to-active-directory/
